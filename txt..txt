@@ -1,0 +1,34 @@
+CRIANDO USUÁRIOS NO LINUX
+
+abra o terminal ubuntu e digite : 
+adduser luluzinha-home /home/luluzinha
+
+caso queira remover : deluser luluzinha
+
+GERENCIANDO USUÁRIOS
+
+adduser groups luluzinha
+
+se desejar um usuário a este grupo: usermod -a -G limoeiro luluzinha
+
+Remover este usuário : deluser luluzinha  usuariosftp
+
+PERMISSÕES 
+
+comando ls, listar todos os documentos e ao listar a pasta que quer modificar vai digitar o que se explica abaixo 
+por exemplo :
+
+comando :  “#chmod ‘permissão’ ‘diretório / arquivo’”
+ex: sudo chmod 700 pasta / -R
+
+isso altera toda a pasta e o diretório dela 
+
+DIRETÓRIOS NO LINUX
+
+O comando cd permite que você navegue entre os diretórios (pastas) dos seus discos. Apesar de ser um comando simples de ser executado ele também possui alguns atalhos para facilitar ainda mais a sua utilização.
+Por exemplo, use cd cd /usr/lib para ir diretamente ao subdiretório lib do diretório usr. Outro exemplo seria cd ~/desktop que irá movê-lo para o subdiretório desktop dentro do diretório home do usuário que está na sessão do termina
+
+cd / acessa o diretório root;
+cd ou cd ~ acessa o diretório home do usuário que está na sessão do terminal;
+cd .. acessa o diretório pai.
+cd - retorna ao diretório previamente acessado.
